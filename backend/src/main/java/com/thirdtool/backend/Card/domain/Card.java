@@ -22,4 +22,8 @@ public class Card {
     @JoinColumn(name = "note_id")
     private Note note;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "deck_id")
+    private Deck deck;
+
 }
