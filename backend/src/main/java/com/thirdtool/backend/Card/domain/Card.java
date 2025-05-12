@@ -61,6 +61,29 @@ public class Card {
         this.intervalDays = 0;
     }
 
+    //3day에서 제공하는 4개의 블록 중 하나-> 3day로 복귀하자 permanent용
+    public void restoreToGeneralStudy() {
+        this.isArchived = false;
+        this.intervalDays = 1;
+        this.dueDate = Instant.now().plusSeconds(86400L);
+    }
+    //3day에서 제공하는 4개의 블록 중 하나
+    public void successReview() {
+        this.reps += 1;
+        this.successCount += 1;
+
+        if (successCount == 1) intervalDays += 1;
+        else if (successCount == 2) intervalDays += 2;
+        else if (successCount == 3) intervalDays += 3;
+        else intervalDays *= 2;
+
+        this.dueDate = Instant.now().plusSeconds(intervalDays * 86400L);
+
+        if (intervalDays > 30) {
+            archive(); // 영구 저장소로 이동
+        }
+    }
+
 
 
 }
