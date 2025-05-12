@@ -84,6 +84,35 @@ public class Card {
         }
     }
 
+    // success 수준 slow 버전
+    public void successReviewSlow() {
+        this.reps += 1;
+        this.successCount += 1;
+
+        if (intervalDays <= 3) {
+            intervalDays += 1; // 처음엔 조금만 증가
+        } else if (intervalDays <= 10) {
+            intervalDays += 2; // 약간씩 증가
+        } else if (intervalDays <= 20) {
+            intervalDays += 3; // 여전히 점진적으로
+        } else {
+            intervalDays = (int) (intervalDays * 1.2); // 완만한 곱셈 증가
+        }
+
+        this.dueDate = Instant.now().plusSeconds(intervalDays * 86400L);
+
+        if (intervalDays > 30) {
+            archive(); // 영구 덱으로 전환
+        }
+    }
+    // 3day에서 제공하는 4개의 블록 중 하나 -> 우선 3개라고 하자구 ㅎ
+    public void failReview(float lapseMultiplier) {
+        this.successCount = 0;
+        this.lapses += 1;
+        this.easeFactor = (int) (this.easeFactor * lapseMultiplier);
+        this.dueDate = Instant.now().plusSeconds(10 * 60); // 10분 후 복습
+    }
+
 
 
 }
