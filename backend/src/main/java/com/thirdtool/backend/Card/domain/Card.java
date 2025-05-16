@@ -113,6 +113,36 @@ public class Card {
         this.dueDate = Instant.now().plusSeconds(10 * 60); // 10분 후 복습
     }
 
+    // 유지하기 (dueDate를 그대로 유지)- permanent에 그대로 잇기
+    public void keepCurrentDue() {
+        // 아무 작업도 하지 않음
+    }
+
+    //interval days 유지하고 계속 dueDate만 미루기
+    public void refreshDueDate() {
+        this.dueDate = Instant.now().plusSeconds(intervalDays * 86400L);
+    }
+
+    // permanent 프로젝트에서 선택된 due 그룹에 따라 초기화 permanent 버튼 중 하나
+    public void resetDueGroup(String selectedGroup) {
+        if (selectedGroup.equals("stay")) {
+            keepCurrentDue(); // 아무 것도 하지 않음
+            return;
+        }
+
+        int newInterval = switch (selectedGroup) {
+            case "3day" -> 3;
+            case "1week" -> 7;
+            case "2week" -> 14;
+            default -> throw new IllegalArgumentException("잘못된 그룹 선택");
+        };
+
+        this.isArchived = false;
+        this.intervalDays = newInterval;
+        this.dueDate = Instant.now().plusSeconds(newInterval * 86400L);
+    }
+
+
 
 
 }

@@ -1,5 +1,8 @@
 package com.thirdtool.backend.Card.domain.StudyPolicy;
 
+import com.thirdtool.backend.Card.domain.Card;
+import com.thirdtool.backend.Card.domain.StudyResult;
+
 import java.util.Map;
 
 public interface CardBehavior {
