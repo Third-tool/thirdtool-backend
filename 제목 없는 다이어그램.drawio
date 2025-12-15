@@ -94,8 +94,8 @@
         <mxCell id="t7WLXIrWmzduobwvUNef-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="레퍼런스들" vertex="1">
           <mxGeometry height="40" width="120" x="260" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="t7WLXIrWmzduobwvUNef-35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;중요&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="180" x="900" y="525" as="geometry" />
+        <mxCell id="t7WLXIrWmzduobwvUNef-35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;데이터 컬렉터 부분&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="1270" y="545" as="geometry" />
         </mxCell>
         <mxCell id="t7WLXIrWmzduobwvUNef-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="진도" vertex="1">
           <mxGeometry height="40" width="120" x="1050" y="160" as="geometry" />
@@ -108,6 +108,24 @@
         </mxCell>
         <mxCell id="t7WLXIrWmzduobwvUNef-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="더 기록" vertex="1">
           <mxGeometry height="40" width="120" x="1050" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="연상" vertex="1">
+          <mxGeometry height="40" width="120" x="1330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="공통점 컬렉터" vertex="1">
+          <mxGeometry height="40" width="120" x="1330" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="내부 태그, 카테고리" vertex="1">
+          <mxGeometry height="40" width="120" x="1330" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1310" y="665" as="sourcePoint" />
+            <mxPoint x="1310" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="흐름이 아래임" vertex="1">
+          <mxGeometry height="50" width="90" x="1200" y="675" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
