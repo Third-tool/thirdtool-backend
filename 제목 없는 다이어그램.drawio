@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t7WLXIrWmzduobwvUNef-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="홍시 프로젝트" vertex="1">
-          <mxGeometry height="40" width="120" x="100" y="100" as="geometry" />
+          <mxGeometry height="40" width="120" x="100" y="90" as="geometry" />
         </mxCell>
         <mxCell id="t7WLXIrWmzduobwvUNef-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="곶감(3day 확장)&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="120" x="280" y="220" as="geometry" />
@@ -17,10 +17,28 @@
           <mxGeometry height="40" width="120" x="450" y="220" as="geometry" />
         </mxCell>
         <mxCell id="t7WLXIrWmzduobwvUNef-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="연상" vertex="1">
-          <mxGeometry height="40" width="120" x="450" y="290" as="geometry" />
+          <mxGeometry height="40" width="120" x="450" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="t7WLXIrWmzduobwvUNef-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="연상" vertex="1">
-          <mxGeometry height="40" width="120" x="450" y="350" as="geometry" />
+        <mxCell id="t7WLXIrWmzduobwvUNef-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="공통 템플릿" vertex="1">
+          <mxGeometry height="40" width="120" x="450" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="책과 기준 하-&lt;div&gt;레퍼런스 자료들&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="3day" vertex="1">
+          <mxGeometry height="40" width="120" x="120" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="홍시(파이프라인)" vertex="1">
+          <mxGeometry height="40" width="120" x="670" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="연상" vertex="1">
+          <mxGeometry height="40" width="120" x="100" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="연상" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="범주화" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
