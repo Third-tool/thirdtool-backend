@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="페이지-1" id="VlMV2lkUk6Csckfg8aeV">
-    <mxGraphModel dx="868" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="717" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,18 @@
         </mxCell>
         <mxCell id="t7WLXIrWmzduobwvUNef-35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;중요&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="900" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="진도" vertex="1">
+          <mxGeometry height="40" width="120" x="1050" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="project" vertex="1">
+          <mxGeometry height="40" width="120" x="1050" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="복습" vertex="1">
+          <mxGeometry height="40" width="120" x="1050" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="t7WLXIrWmzduobwvUNef-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="더 기록" vertex="1">
+          <mxGeometry height="40" width="120" x="1050" y="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
